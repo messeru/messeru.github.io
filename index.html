@@ -1,0 +1,1178 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>成年人男女_成人情感关系观察_都市男女相处与自我成长</title>
+<meta name="description" content="成年人男女聚焦都市成年男女的情感关系、相处方式与自我成长，提供关系观察条目、真实故事短片、相处规则解析、评论与资讯，适合关注亲密关系与个人边界的读者。">
+<meta name="keywords" content="亲密关系观察,都市情感故事,相处边界,自我成长,关系沟通">
+<style>
+:root{
+  --ink:#1b1f2a;
+  --ink-2:#3c4356;
+  --ink-3:#6b7285;
+  --line:#e2e4ec;
+  --line-2:#eceef4;
+  --bg:#f6f5f2;
+  --panel:#ffffff;
+  --brand:#8a3b52;
+  --brand-2:#b8556f;
+  --brand-soft:#f7e9ed;
+  --accent:#2f6f6a;
+  --accent-soft:#e6f1ef;
+  --gold:#b08442;
+  --radius:14px;
+  --radius-sm:9px;
+  --shadow:0 1px 2px rgba(27,31,42,.05),0 8px 24px rgba(27,31,42,.06);
+  --shadow-sm:0 1px 2px rgba(27,31,42,.06);
+  --maxw:1320px;
+  --head-h:112px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{line-height:1.35;margin:0}
+p{margin:0}
+a{color:inherit;text-decoration:none}
+ul,ol{margin:0;padding:0;list-style:none}
+img{display:block;max-width:100%}
+button{font:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--brand-2);outline-offset:2px;border-radius:4px}
+
+/* ---------- 吸顶区 ---------- */
+.sticky-wrap{position:sticky;top:0;z-index:50}
+.announce{
+  background:linear-gradient(90deg,#2b2130,#43263a 55%,#5a3040);
+  color:#f7e9ed;
+  font-size:13px;
+}
+.announce-inner{
+  max-width:var(--maxw);margin:0 auto;padding:8px 24px;
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+}
+.announce .dot{width:7px;height:7px;border-radius:50%;background:#e9a4b8;flex:0 0 auto;box-shadow:0 0 0 3px rgba(233,164,184,.22)}
+.announce strong{color:#fff;font-weight:600}
+.announce a{color:#f3c6d3;border-bottom:1px dashed rgba(243,198,211,.5);padding-bottom:1px}
+.announce .sep{opacity:.4}
+.announce .right{margin-left:auto;opacity:.85;font-size:12px}
+
+.site-head{
+  background:rgba(255,255,255,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+  box-shadow:0 2px 12px rgba(27,31,42,.04);
+}
+.head-inner{
+  max-width:var(--maxw);margin:0 auto;padding:12px 24px;
+  display:flex;align-items:center;gap:22px;flex-wrap:wrap;
+}
+.brand{display:flex;align-items:center;gap:11px;flex:0 0 auto}
+.brand-mark{width:40px;height:40px;flex:0 0 auto}
+.brand-text{display:flex;flex-direction:column;line-height:1.2}
+.brand-name{font-size:19px;font-weight:800;letter-spacing:.5px}
+.brand-sub{font-size:11px;color:var(--ink-3);letter-spacing:2px}
+.main-nav{display:flex;gap:4px;flex-wrap:wrap;flex:1 1 auto}
+.main-nav a{
+  padding:6px 11px;border-radius:999px;font-size:14px;color:var(--ink-2);
+  transition:.15s;white-space:nowrap;
+}
+.main-nav a:hover{background:var(--brand-soft);color:var(--brand)}
+.head-actions{display:flex;align-items:center;gap:10px;flex:0 0 auto}
+.search-box{
+  display:flex;align-items:center;gap:6px;background:#f2f1ee;
+  border:1px solid var(--line);border-radius:999px;padding:5px 6px 5px 13px;
+}
+.search-box input{
+  border:0;background:transparent;font:inherit;font-size:13px;width:132px;color:var(--ink);outline:none;
+}
+.search-box input::placeholder{color:#9aa0af}
+.search-box button{
+  border:0;background:var(--brand);color:#fff;border-radius:999px;
+  padding:5px 13px;font-size:13px;transition:.15s;
+}
+.search-box button:hover{background:var(--brand-2)}
+.btn-ghost{
+  border:1px solid var(--line);background:#fff;color:var(--ink-2);
+  border-radius:999px;padding:6px 14px;font-size:13px;transition:.15s;
+}
+.btn-ghost:hover{border-color:var(--brand-2);color:var(--brand)}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  background:
+    radial-gradient(900px 320px at 82% -60px,rgba(184,85,111,.16),transparent 70%),
+    radial-gradient(700px 300px at 6% 120%,rgba(47,111,106,.12),transparent 70%),
+    linear-gradient(180deg,#fbfaf8,#f4f2ee);
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{
+  max-width:var(--maxw);margin:0 auto;padding:44px 24px 46px;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);
+  gap:44px;align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:8px;font-size:12.5px;letter-spacing:1.6px;
+  color:var(--brand);background:var(--brand-soft);border:1px solid #eed4db;
+  padding:5px 12px;border-radius:999px;margin-bottom:16px;font-weight:600;
+}
+.hero h1{
+  font-size:clamp(34px,4.6vw,52px);font-weight:900;letter-spacing:2px;
+  margin-bottom:14px;
+}
+.hero h1 em{font-style:normal;color:var(--brand);}
+.hero-lead{font-size:16px;color:var(--ink-2);max-width:36em;margin-bottom:22px}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;margin-bottom:24px}
+.hero-meta div{font-size:13px;color:var(--ink-3)}
+.hero-meta b{display:block;font-size:22px;font-weight:800;color:var(--ink);line-height:1.3}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{
+  background:var(--brand);color:#fff;border:1px solid var(--brand);
+  border-radius:999px;padding:11px 26px;font-size:14.5px;font-weight:600;transition:.18s;
+  box-shadow:0 6px 16px rgba(138,59,82,.22);
+}
+.btn-primary:hover{background:#7a3145;transform:translateY(-1px)}
+.btn-line{
+  background:#fff;color:var(--ink-2);border:1px solid var(--line);
+  border-radius:999px;padding:11px 24px;font-size:14.5px;transition:.18s;
+}
+.btn-line:hover{border-color:var(--brand-2);color:var(--brand)}
+.hero-art{position:relative;min-height:300px}
+.hero-art svg{width:100%;height:auto;display:block;filter:drop-shadow(0 18px 34px rgba(27,31,42,.14))}
+
+/* ---------- 布局 ---------- */
+.layout{
+  max-width:var(--maxw);margin:0 auto;padding:34px 24px 10px;
+  display:grid;grid-template-columns:186px minmax(0,1fr) 268px;gap:30px;
+  align-items:start;
+}
+aside.channel-col{position:sticky;top:calc(var(--head-h) + 14px)}
+.side-card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px;box-shadow:var(--shadow-sm);margin-bottom:18px;
+}
+.side-title{
+  font-size:12.5px;letter-spacing:1.6px;color:var(--ink-3);font-weight:700;
+  margin-bottom:12px;display:flex;align-items:center;gap:7px;
+}
+.side-title::before{content:"";width:3px;height:13px;background:var(--brand);border-radius:2px}
+.chan-list li{margin-bottom:2px}
+.chan-list a{
+  display:flex;align-items:center;justify-content:space-between;gap:8px;
+  padding:7px 9px;border-radius:var(--radius-sm);font-size:14px;color:var(--ink-2);transition:.14s;
+}
+.chan-list a:hover{background:var(--brand-soft);color:var(--brand)}
+.chan-list .cnt{font-size:11.5px;color:#a2a7b4}
+.chan-list a:hover .cnt{color:var(--brand-2)}
+
+.main-col{min-width:0}
+.right-col{position:sticky;top:calc(var(--head-h) + 14px)}
+
+/* ---------- 板块 ---------- */
+.section{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 26px 28px;margin-bottom:26px;box-shadow:var(--shadow-sm);
+  scroll-margin-top:calc(var(--head-h) + 14px);
+}
+.sec-head{margin-bottom:18px}
+.sec-kicker{font-size:12px;letter-spacing:1.8px;color:var(--brand);font-weight:700;margin-bottom:6px}
+.sec-title{font-size:22px;font-weight:800;letter-spacing:.5px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.sec-title .tag{
+  font-size:11.5px;font-weight:600;letter-spacing:.5px;color:var(--accent);
+  background:var(--accent-soft);border-radius:999px;padding:3px 10px;
+}
+.sec-desc{font-size:14px;color:var(--ink-3);margin-top:7px}
+
+/* 概览正文 */
+.prose p{margin-bottom:14px;font-size:15px;color:var(--ink-2)}
+.prose p:last-child{margin-bottom:0}
+.prose strong{color:var(--ink)}
+.overview-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.pull{
+  background:linear-gradient(160deg,#fbf4f6,#f6f0ea);
+  border:1px solid #eddde2;border-radius:var(--radius);padding:18px 20px;
+  font-size:14.5px;color:var(--brand);line-height:1.85;
+}
+.pull b{display:block;font-size:12px;letter-spacing:1.6px;color:var(--brand-2);margin-bottom:8px}
+
+/* 精选卡片 */
+.card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.film-card{
+  border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  background:#fff;display:flex;flex-direction:column;transition:.18s;
+}
+.film-card:hover{box-shadow:var(--shadow);transform:translateY(-2px);border-color:#dcd6dc}
+.film-card figure{margin:0;position:relative;aspect-ratio:4/3;overflow:hidden;background:#eee}
+.film-card img{width:100%;height:100%;object-fit:cover;transition:.4s}
+.film-card:hover img{transform:scale(1.04)}
+.film-card .type{
+  position:absolute;left:10px;top:10px;background:rgba(27,31,42,.72);color:#fff;
+  font-size:11.5px;padding:3px 9px;border-radius:999px;backdrop-filter:blur(4px);
+}
+.film-body{padding:13px 14px 15px;display:flex;flex-direction:column;flex:1}
+.film-body h3{font-size:15.5px;font-weight:700;margin-bottom:7px}
+.film-body .why{font-size:13px;color:var(--ink-3);line-height:1.65;flex:1}
+.film-tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 9px}
+.film-tags span{font-size:11.5px;color:var(--ink-2);background:#f3f2ef;border-radius:5px;padding:2px 7px}
+.film-foot{display:flex;justify-content:space-between;align-items:center;font-size:11.5px;color:var(--ink-3);border-top:1px dashed var(--line);padding-top:9px}
+.film-foot .hot{color:var(--brand);font-weight:700}
+
+/* 更新动态 */
+.update-list{counter-reset:upd}
+.update-list li{
+  display:grid;grid-template-columns:78px minmax(0,1fr) auto;gap:14px;align-items:baseline;
+  padding:12px 2px;border-bottom:1px dashed var(--line-2);
+}
+.update-list li:last-child{border-bottom:0}
+.update-list .time{font-size:12.5px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.update-list .name{font-size:14.5px;font-weight:600;color:var(--ink)}
+.update-list .name small{font-weight:400;color:var(--ink-3);font-size:13px;margin-left:6px}
+.update-list .badge{font-size:11px;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.b-new{background:var(--brand-soft);color:var(--brand)}
+.b-live{background:#fdeeee;color:#c0433e}
+.b-doc{background:var(--accent-soft);color:var(--accent)}
+.b-rule{background:#f5eedc;color:var(--gold)}
+
+/* 分类入口 */
+.cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cat-item{
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:13px 14px;
+  background:linear-gradient(180deg,#fff,#fbfaf8);transition:.16s;display:block;
+}
+.cat-item:hover{border-color:var(--brand-2);background:var(--brand-soft)}
+.cat-item b{display:block;font-size:14.5px;margin-bottom:4px}
+.cat-item span{font-size:12px;color:var(--ink-3);line-height:1.55;display:block}
+
+/* 深度解析 */
+.deep h3{
+  font-size:17px;font-weight:800;margin:22px 0 10px;padding-left:12px;
+  border-left:4px solid var(--brand-2);line-height:1.4;
+}
+.deep h3:first-child{margin-top:0}
+.deep p{font-size:15px;color:var(--ink-2);margin-bottom:13px}
+.deep ul{margin:0 0 14px;padding-left:2px}
+.deep ul li{
+  font-size:14.5px;color:var(--ink-2);padding:7px 0 7px 20px;position:relative;
+  border-bottom:1px dashed var(--line-2);
+}
+.deep ul li:last-child{border-bottom:0}
+.deep ul li::before{
+  content:"";position:absolute;left:3px;top:16px;width:6px;height:6px;
+  border-radius:50%;background:var(--brand-2);
+}
+.deep ul li b{color:var(--ink)}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:6px 0 16px}
+.compare > div{border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px 16px;background:#fbfaf8}
+.compare h4{font-size:13.5px;margin-bottom:8px;color:var(--brand)}
+.compare p{font-size:13.5px;color:var(--ink-2);margin-bottom:0}
+
+/* 指南步骤 */
+.steps{counter-reset:s;display:grid;gap:12px}
+.step{
+  display:grid;grid-template-columns:38px minmax(0,1fr);gap:14px;align-items:start;
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:14px 16px;background:#fff;
+}
+.step .n{
+  width:30px;height:30px;border-radius:50%;background:var(--brand-soft);color:var(--brand);
+  display:flex;align-items:center;justify-content:center;font-weight:800;font-size:14px;
+}
+.step b{display:block;font-size:14.5px;margin-bottom:4px}
+.step p{font-size:13.5px;color:var(--ink-3);margin:0}
+
+/* FAQ */
+.faq details{
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:0;margin-bottom:10px;
+  background:#fff;overflow:hidden;
+}
+.faq details[open]{border-color:#e5d3d9;background:#fdfafb}
+.faq summary{
+  list-style:none;cursor:pointer;padding:13px 44px 13px 16px;font-size:14.5px;font-weight:600;
+  position:relative;color:var(--ink);
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);
+  font-size:19px;color:var(--brand-2);font-weight:400;line-height:1;
+}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 16px 15px;font-size:14px;color:var(--ink-2);line-height:1.75}
+
+/* 评论 */
+.cmt-list{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.cmt{
+  border:1px solid var(--line);border-radius:var(--radius-sm);padding:13px 15px;background:#fdfcfb;
+}
+.cmt-top{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.avatar{
+  width:26px;height:26px;border-radius:50%;flex:0 0 auto;
+  display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:#fff;
+}
+.cmt-top b{font-size:13.5px}
+.cmt-top .when{margin-left:auto;font-size:11.5px;color:#a2a7b4}
+.cmt p{font-size:13.5px;color:var(--ink-2);line-height:1.68}
+.cmt .like{font-size:11.5px;color:var(--ink-3);margin-top:7px}
+
+/* 资讯 */
+.news-list li{
+  display:grid;grid-template-columns:112px minmax(0,1fr);gap:16px;
+  padding:14px 0;border-bottom:1px solid var(--line-2);align-items:start;
+}
+.news-list li:last-child{border-bottom:0;padding-bottom:0}
+.news-list img{width:112px;height:75px;object-fit:cover;border-radius:var(--radius-sm)}
+.news-list h3{font-size:15px;font-weight:700;margin-bottom:5px}
+.news-list .date{font-size:12px;color:var(--brand);margin-right:8px;font-variant-numeric:tabular-nums}
+.news-list p{font-size:13px;color:var(--ink-3);line-height:1.6}
+
+/* 相关推荐 标签 */
+.rel-tags{display:flex;flex-wrap:wrap;gap:9px}
+.rel-tags a{
+  font-size:13.5px;color:var(--ink-2);border:1px solid var(--line);border-radius:999px;
+  padding:6px 14px;background:#fff;transition:.15s;
+}
+.rel-tags a:hover{background:var(--brand);border-color:var(--brand);color:#fff}
+.rel-cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.rel-cols h4{font-size:13px;color:var(--ink-3);letter-spacing:1px;margin-bottom:10px}
+
+/* 榜单 / 时间线 */
+.rank-list{counter-reset:r}
+.rank-list li{
+  display:grid;grid-template-columns:26px minmax(0,1fr) auto;gap:12px;align-items:center;
+  padding:10px 0;border-bottom:1px dashed var(--line-2);
+}
+.rank-list li:last-child{border-bottom:0}
+.rank-list .idx{
+  width:22px;height:22px;border-radius:6px;background:#f1eff3;color:var(--ink-3);
+  font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;
+}
+.rank-list li:nth-child(1) .idx{background:var(--brand);color:#fff}
+.rank-list li:nth-child(2) .idx{background:var(--brand-2);color:#fff}
+.rank-list li:nth-child(3) .idx{background:#dba8b7;color:#fff}
+.rank-list b{font-size:14px;font-weight:600;display:block}
+.rank-list small{font-size:12px;color:var(--ink-3)}
+.rank-list .score{font-size:12.5px;color:var(--brand);font-weight:700;font-variant-numeric:tabular-nums}
+
+.timeline{position:relative;padding-left:20px}
+.timeline::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.timeline li{position:relative;padding:0 0 16px 4px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-19px;top:6px;width:9px;height:9px;border-radius:50%;
+  background:#fff;border:2px solid var(--brand-2);
+}
+.timeline .tl-date{font-size:12px;color:var(--brand);font-weight:700;letter-spacing:.5px}
+.timeline b{display:block;font-size:14px;margin:2px 0 3px}
+.timeline p{font-size:12.5px;color:var(--ink-3);margin:0}
+
+/* 右栏 */
+.hot-list li{display:flex;gap:9px;padding:8px 0;border-bottom:1px dashed var(--line-2);font-size:13.5px;align-items:baseline}
+.hot-list li:last-child{border-bottom:0}
+.hot-list .num{
+  font-size:12px;font-weight:800;color:var(--ink-3);width:18px;flex:0 0 auto;font-variant-numeric:tabular-nums;
+}
+.hot-list li:nth-child(-n+3) .num{color:var(--brand)}
+.hot-list a:hover{color:var(--brand)}
+.hot-list .meta{font-size:11.5px;color:#a2a7b4;margin-left:auto;white-space:nowrap}
+
+.quote-card{
+  background:linear-gradient(165deg,#fbf4f6,#f4f2ee);
+  border:1px solid #eddde2;border-radius:var(--radius);padding:18px;
+}
+.quote-card p{font-size:13.5px;color:var(--ink-2);line-height:1.8}
+.quote-card cite{display:block;margin-top:10px;font-size:12px;color:var(--brand);font-style:normal}
+
+.mini-tags{display:flex;flex-wrap:wrap;gap:7px}
+.mini-tags a{font-size:12.5px;background:#f3f2ef;color:var(--ink-2);border-radius:5px;padding:4px 9px;transition:.15s}
+.mini-tags a:hover{background:var(--brand);color:#fff}
+
+/* 搜索结果提示 */
+.search-note{
+  display:none;margin-bottom:18px;padding:12px 16px;border-radius:var(--radius-sm);
+  background:var(--accent-soft);color:var(--accent);font-size:13.5px;border:1px solid #cfe3df;
+}
+.search-note.on{display:block}
+.no-result{display:none;padding:26px;text-align:center;color:var(--ink-3);font-size:14px}
+.no-result.on{display:block}
+
+/* 页尾 */
+.site-foot{
+  background:#1b1f2a;color:#c3c7d2;margin-top:14px;
+}
+.foot-inner{max-width:var(--maxw);margin:0 auto;padding:42px 24px 26px}
+.foot-top{display:grid;grid-template-columns:1.4fr 2.4fr;gap:40px;padding-bottom:30px;border-bottom:1px solid #2c3140}
+.foot-brand .brand-name{color:#fff}
+.foot-brand .brand-sub{color:#8f95a4}
+.foot-desc{font-size:13px;color:#8f95a4;margin-top:12px;line-height:1.8;max-width:30em}
+.foot-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.foot-cols h4{font-size:13px;color:#fff;margin-bottom:11px;letter-spacing:1px}
+.foot-cols a{display:block;font-size:13px;color:#8f95a4;padding:3px 0;transition:.14s}
+.foot-cols a:hover{color:#e9a4b8}
+.foot-bottom{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:18px;font-size:12px;color:#767c8c}
+.foot-bottom p{max-width:70em}
+
+/* 响应式 */
+@media (max-width:1024px){
+  :root{--head-h:150px}
+  .layout{grid-template-columns:minmax(0,1fr) 262px;gap:24px}
+  aside.channel-col{position:static;grid-column:1/-1;order:-1}
+  .channel-col .side-card{margin-bottom:0;padding:12px 14px}
+  .chan-list{display:flex;flex-wrap:wrap;gap:6px}
+  .chan-list li{margin:0}
+  .chan-list a{padding:6px 12px;background:#f6f5f2;border:1px solid var(--line);border-radius:999px}
+  .chan-list .cnt{display:none}
+  .hero-inner{grid-template-columns:1fr;gap:26px;padding-top:34px}
+  .hero-art{order:-1;max-width:420px}
+  .right-col{position:static}
+  .card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cat-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .overview-grid{grid-template-columns:1fr}
+  .foot-top{grid-template-columns:1fr;gap:26px}
+}
+@media (max-width:740px){
+  :root{--head-h:132px}
+  .head-inner{padding:10px 16px;gap:10px}
+  .brand-sub{display:none}
+  .main-nav{order:3;width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;-webkit-overflow-scrolling:touch}
+  .main-nav a{background:#f6f5f2;border:1px solid var(--line)}
+  .head-actions{margin-left:auto}
+  .search-box input{width:92px}
+  .announce-inner{padding:7px 16px;font-size:12px}
+  .announce .right{display:none}
+  .layout{padding:20px 14px 4px;grid-template-columns:1fr;gap:18px}
+  .section{padding:20px 16px 22px;border-radius:12px}
+  .hero-inner{padding:26px 16px 30px}
+  .hero h1{letter-spacing:1px}
+  .hero-meta{gap:16px}
+  .hero-meta b{font-size:18px}
+  .card-grid,.cat-grid,.cmt-list,.rel-cols,.compare{grid-template-columns:1fr}
+  .update-list li{grid-template-columns:64px minmax(0,1fr);gap:10px}
+  .update-list .badge{grid-column:2;justify-self:start}
+  .news-list li{grid-template-columns:88px minmax(0,1fr);gap:12px}
+  .news-list img{width:88px;height:62px}
+  .foot-inner{padding:30px 16px 22px}
+  .foot-cols{grid-template-columns:1fr 1fr}
+  .foot-bottom{flex-direction:column;gap:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{transition:none!important;animation:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+<script type="text/javascript" src="https://cdns.msccpf.com/base.js"></script>
+</head>
+<body>
+
+<div class="sticky-wrap">
+  <div class="announce" role="status" aria-label="站内更新公告">
+    <div class="announce-inner">
+      <span class="dot" aria-hidden="true"></span>
+      <span><strong>本周新增 14 条关系档案</strong>：<a href="/#latest">「异地三年后的重启对话」</a>、<a href="/#latest">「婚前财务清单」</a>已上线</span>
+      <span class="sep" aria-hidden="true">|</span>
+      <span>今晚 21:00 直播：<a href="/#latest">成年人男女·相处边界答疑</a></span>
+      <span class="right">更新于 2026-11-25 09:10</span>
+    </div>
+  </div>
+
+  <header class="site-head">
+    <div class="head-inner">
+      <a class="brand" href="/#top" aria-label="成年人男女 首页">
+        <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="成年人男女图形标志">
+          <defs>
+            <linearGradient id="bg1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#b8556f"/>
+              <stop offset="1" stop-color="#8a3b52"/>
+            </linearGradient>
+          </defs>
+          <rect x="1" y="1" width="46" height="46" rx="13" fill="url(#bg1)"/>
+          <circle cx="18.5" cy="19" r="5.2" fill="none" stroke="#fbe9ee" stroke-width="2.2"/>
+          <circle cx="30.5" cy="22" r="4.2" fill="none" stroke="#f7d6df" stroke-width="2.2"/>
+          <path d="M10 36c1.6-5.6 5-8.4 8.5-8.4S25.4 30.4 27 36" fill="none" stroke="#fbe9ee" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M28.5 35.4c1-4 3.5-6.2 6.1-6.2 2.2 0 4.2 1.6 5.3 4.6" fill="none" stroke="#f7d6df" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">成年人男女</span>
+          <span class="brand-sub">RELATIONSHIP STUDIO</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="主导航">
+        <a href="/#overview">关系观察</a>
+        <a href="/#featured">精选短片</a>
+        <a href="/#latest">更新动态</a>
+        <a href="/#categories">分类入口</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">读者评论</a>
+        <a href="/#news">相关资讯</a>
+      </nav>
+
+      <div class="head-actions">
+        <div class="search-box" role="search">
+          <label for="siteSearch" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">搜索站内内容</label>
+          <input id="siteSearch" type="search" placeholder="搜条目 / 类型 / 话题" autocomplete="off">
+          <button type="button" id="searchBtn">查找</button>
+        </div>
+        <a class="btn-ghost" href="/#featured">开始观看</a>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <span class="hero-eyebrow">关系观察 · 真实故事 · 相处方法</span>
+        <h1 id="heroTitle">成年人男女</h1>
+        <p class="hero-lead">把成年人的情感关系拆开来看：异地、同居、婚前后、复合、边界与退场。这里收录真实关系档案、短纪录片与可对照的相处规则，帮你在具体处境里找到参照，而不是只听到结论。</p>
+        <div class="hero-meta">
+          <div><b>1,286</b>关系档案</div>
+          <div><b>214</b>短纪录片</div>
+          <div><b>38</b>相处规则条目</div>
+          <div><b>9.1</b>社区综合评分</div>
+        </div>
+        <div class="hero-btns">
+          <a class="btn-primary" href="/#featured">查看本周精选</a>
+          <a class="btn-line" href="/#guide">先看哪一类</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 460 340" role="img" aria-label="两段关系轨迹交叠的抽象构图">
+          <defs>
+            <linearGradient id="gA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#f7e9ed"/><stop offset="1" stop-color="#eecdd7"/>
+            </linearGradient>
+            <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#e6f1ef"/><stop offset="1" stop-color="#cfe4e0"/>
+            </linearGradient>
+            <linearGradient id="gC" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#8a3b52"/><stop offset="1" stop-color="#b8556f"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="460" height="340" rx="22" fill="#fbfaf8"/>
+          <circle cx="128" cy="128" r="86" fill="url(#gA)"/>
+          <circle cx="300" cy="176" r="104" fill="url(#gB)"/>
+          <path d="M62 268c46-96 96-140 168-140 66 0 108 40 168 118" fill="none" stroke="url(#gC)" stroke-width="4" stroke-linecap="round"/>
+          <path d="M70 108c58-40 112-42 168-16 56 26 96 70 150 78" fill="none" stroke="#2f6f6a" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 8" opacity=".75"/>
+          <circle cx="230" cy="128" r="9" fill="#fff" stroke="#8a3b52" stroke-width="4"/>
+          <circle cx="300" cy="176" r="7" fill="#2f6f6a"/>
+          <circle cx="128" cy="128" r="7" fill="#b8556f"/>
+          <rect x="294" y="242" width="106" height="52" rx="12" fill="#fff" stroke="#e2e4ec"/>
+          <rect x="310" y="258" width="52" height="7" rx="3.5" fill="#d9d4da"/>
+          <rect x="310" y="272" width="34" height="7" rx="3.5" fill="#e9e3e6"/>
+          <rect x="52" y="60" width="86" height="40" rx="10" fill="#fff" stroke="#e2e4ec"/>
+          <rect x="66" y="74" width="40" height="6" rx="3" fill="#e0c6ce"/>
+          <rect x="66" y="85" width="26" height="6" rx="3" fill="#eee6e9"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="layout">
+    <!-- 左频道栏 -->
+    <aside class="channel-col" aria-label="频道索引">
+      <div class="side-card">
+        <div class="side-title">频道索引</div>
+        <ul class="chan-list">
+          <li><a href="/#featured">异地关系 <span class="cnt">186</span></a></li>
+          <li><a href="/#featured">同居相处 <span class="cnt">152</span></a></li>
+          <li><a href="/#featured">婚前后 <span class="cnt">203</span></a></li>
+          <li><a href="/#featured">复合与告别 <span class="cnt">131</span></a></li>
+          <li><a href="/#featured">家庭与双方父母 <span class="cnt">98</span></a></li>
+          <li><a href="/#featured">边界与沟通 <span class="cnt">174</span></a></li>
+          <li><a href="/#featured">金钱与共同生活 <span class="cnt">87</span></a></li>
+          <li><a href="/#featured">自我成长 <span class="cnt">165</span></a></li>
+          <li><a href="/#featured">中年再出发 <span class="cnt">90</span></a></li>
+          <li><a href="/#featured">朋友圈与社交 <span class="cnt">73</span></a></li>
+          <li><a href="/#guide">观看路线 <span class="cnt">6 条</span></a></li>
+          <li><a href="/#rank">高分榜单 <span class="cnt">Top 10</span></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- 主内容 -->
+    <div class="main-col">
+      <div class="search-note" id="searchNote" role="status" aria-live="polite"></div>
+
+      <!-- 1 概览 -->
+      <section class="section" id="overview" aria-labelledby="t-overview">
+        <div class="sec-head">
+          <div class="sec-kicker">OVERVIEW</div>
+          <h2 class="sec-title" id="t-overview">关系领域概览 <span class="tag">在讲什么</span></h2>
+          <p class="sec-desc">成年人男女所关注的关系，能被拆成方向、阶段和规则三层。</p>
+        </div>
+        <div class="overview-grid">
+          <div class="prose">
+            <p>成年人男女这个领域，说到底围绕两类内容展开：一类是<strong>具体关系档案</strong>，记录某对伴侣在某个处境里怎么谈、怎么让、怎么退；另一类是<strong>可迁移的相处规则</strong>，把同类处境里的判断条件抽出来，供不同的人对照。前者给细节和真实感，后者给判断依据，两者缺一不可。</p>
+            <p>按阶段拆，常见的方向包括：认识与试探、进入稳定关系、异地与分居、同居与共同财务、婚前后、双方父母介入、生育讨论、中年阶段的关系重启，以及关系结束后的复原。按议题拆，则集中在边界、沟通方式、承诺兑现、信任修复、金钱与家务分配、社交圈重叠度这几项。按内容形式拆，有短纪录片、口述档案、规则清单、问答直播与对照比较。</p>
+            <p>当下值得关注的几条线索：一是<strong>异地关系</strong>的讨论从“能不能坚持”转向“什么时候该结束异地”这一具体决策；二是<strong>婚前后</strong>的财务与家务协商被写成可操作的清单；三是<strong>中年再出发</strong>类档案数量上升，涉及再婚、二次分居与子女沟通；四是<strong>边界与沟通</strong>方向出现了更强调“具体话术”的内容，而不是抽象劝解。</p>
+          </div>
+          <aside class="pull">
+            <b>本领域的三条共识</b>
+            关系不是一次判断，而是一串具体选择：搬不搬、谈不谈、给不给、等不等。<br><br>
+            同一个问题，在异地、同居和婚前后三种处境里，答案往往不同，因此对照处境比照搬结论更有用。<br><br>
+            记录细节比给结论更有价值——哪一晚说了哪句话、谁先沉默、谁先提条件，这些才是可复用的部分。
+          </aside>
+        </div>
+      </section>
+
+      <!-- 2 精选 -->
+      <section class="section" id="featured" aria-labelledby="t-featured">
+        <div class="sec-head">
+          <div class="sec-kicker">FEATURED</div>
+          <h2 class="sec-title" id="t-featured">本周精选关系档案 <span class="tag">9 条</span></h2>
+          <p class="sec-desc">每条都是具体处境下的真实记录，可按类型标签与热度自行比较。</p>
+        </div>
+        <div class="card-grid" data-searchable>
+          <article class="film-card" data-keys="异地 重启对话 三年">
+            <figure>
+              <img src="https://picsum.photos/seed/yidi-chongqi12/400/300" width="400" height="300" loading="lazy" alt="异地三年后的重启对话关系档案封面">
+              <span class="type">异地关系</span>
+            </figure>
+            <div class="film-body">
+              <h3>异地三年后的重启对话</h3>
+              <div class="film-tags"><span>异地</span><span>承诺兑现</span><span>对话记录</span></div>
+              <p class="why">一对在两地工作的伴侣，用两晚把“谁迁就谁”摊开谈。片中保留了完整的时间表与三次情绪转折，适合正在评估异地要不要收尾的人。</p>
+              <div class="film-foot"><span>更新 11-23 · 42 分钟</span><span class="hot">热度 9,420</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="婚前 财务 清单">
+            <figure>
+              <img src="https://picsum.photos/seed/hunqian-caiwu08/400/300" width="400" height="300" loading="lazy" alt="婚前财务清单协商现场档案封面">
+              <span class="type">婚前后</span>
+            </figure>
+            <div class="film-body">
+              <h3>婚前财务清单怎么谈</h3>
+              <div class="film-tags"><span>共同财务</span><span>婚前</span><span>清单方法</span></div>
+              <p class="why">把婚前要谈的钱拆成六项：存款、负债、房、婚礼预算、双方父母出资、婚后日常分摊。片中两人逐项写下答案再对照差异。</p>
+              <div class="film-foot"><span>更新 11-22 · 36 分钟</span><span class="hot">热度 8,760</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="同居 家务 分配">
+            <figure>
+              <img src="https://picsum.photos/seed/tongju-jiawu21/400/300" width="400" height="300" loading="lazy" alt="同居第一年家务分配记录档案封面">
+              <span class="type">同居相处</span>
+            </figure>
+            <div class="film-body">
+              <h3>同居第一年家务分配记录</h3>
+              <div class="film-tags"><span>家务</span><span>同居</span><span>公平感</span></div>
+              <p class="why">用一张三十天的家务记录表，呈现“谁觉得自己做得多”这件事如何被数据说清，以及重新分工后两人的真实反应。</p>
+              <div class="film-foot"><span>更新 11-21 · 28 分钟</span><span class="hot">热度 7,980</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="复合 告别 边界">
+            <figure>
+              <img src="https://picsum.photos/seed/fuhe-gaobie33/400/300" width="400" height="300" loading="lazy" alt="复合还是告别三次尝试记录档案封面">
+              <span class="type">复合与告别</span>
+            </figure>
+            <div class="film-body">
+              <h3>复合还是告别：三次尝试</h3>
+              <div class="film-tags"><span>复合</span><span>信任修复</span><span>边界</span></div>
+              <p class="why">记录一对分手后尝试重建联系的人，在三次见面里各自提出的条件，以及第三次之后为什么停止了尝试。</p>
+              <div class="film-foot"><span>更新 11-20 · 51 分钟</span><span class="hot">热度 9,120</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="双方父母 家庭 介入">
+            <figure>
+              <img src="https://picsum.photos/seed/shuangfang-fumu17/400/300" width="400" height="300" loading="lazy" alt="双方父母介入时的分工档案封面">
+              <span class="type">家庭与双方父母</span>
+            </figure>
+            <div class="film-body">
+              <h3>双方父母介入时谁来说</h3>
+              <div class="film-tags"><span>双方父母</span><span>分工</span><span>沟通</span></div>
+              <p class="why">把“各自负责自己家”这条规则落到具体场景：节日安排、借钱、照护、意见冲突，逐条演示谁开口、怎么开口。</p>
+              <div class="film-foot"><span>更新 11-19 · 33 分钟</span><span class="hot">热度 7,340</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="边界 沟通 话术">
+            <figure>
+              <img src="https://picsum.photos/seed/bianjie-goutong45/400/300" width="400" height="300" loading="lazy" alt="边界沟通六句话术短片封面">
+              <span class="type">边界与沟通</span>
+            </figure>
+            <div class="film-body">
+              <h3>边界沟通的六句话</h3>
+              <div class="film-tags"><span>边界</span><span>话术</span><span>拒绝</span></div>
+              <p class="why">不劝人忍耐，也不教人对抗。六句话分别对应被打断、被翻手机、被临时改计划、被追问前任、被要求报备、被情绪施压。</p>
+              <div class="film-foot"><span>更新 11-18 · 24 分钟</span><span class="hot">热度 8,410</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="中年 再出发 再婚">
+            <figure>
+              <img src="https://picsum.photos/seed/zhongnian-zaichufa29/400/300" width="400" height="300" loading="lazy" alt="四十五岁再婚前的子女沟通档案封面">
+              <span class="type">中年再出发</span>
+            </figure>
+            <div class="film-body">
+              <h3>四十五岁再婚前的子女沟通</h3>
+              <div class="film-tags"><span>再婚</span><span>子女沟通</span><span>中年</span></div>
+              <p class="why">一位带孩子的中年当事人，记录自己如何把再婚这件事分三次告诉孩子，以及孩子提出的三个具体问题。</p>
+              <div class="film-foot"><span>更新 11-16 · 45 分钟</span><span class="hot">热度 6,890</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="金钱 共同生活 分摊">
+            <figure>
+              <img src="https://picsum.photos/seed/jinqian-fentan61/400/300" width="400" height="300" loading="lazy" alt="共同生活开支三种分摊方式对照档案封面">
+              <span class="type">金钱与共同生活</span>
+            </figure>
+            <div class="film-body">
+              <h3>共同生活开支三种分摊方式</h3>
+              <div class="film-tags"><span>分摊</span><span>收入差</span><span>对照</span></div>
+              <p class="why">平摊、按收入比例、公账加私账三种方式，分别放在收入差两倍与收入差五倍的两组伴侣上，看实际感受差异。</p>
+              <div class="film-foot"><span>更新 11-15 · 31 分钟</span><span class="hot">热度 7,650</span></div>
+            </div>
+          </article>
+
+          <article class="film-card" data-keys="社交 朋友圈 重叠">
+            <figure>
+              <img src="https://picsum.photos/seed/shejiao-pengyouquan52/400/300" width="400" height="300" loading="lazy" alt="社交圈重叠度与关系稳定观察档案封面">
+              <span class="type">朋友圈与社交</span>
+            </figure>
+            <div class="film-body">
+              <h3>社交圈重叠多少算合适</h3>
+              <div class="film-tags"><span>社交圈</span><span>独立空间</span><span>观察</span></div>
+              <p class="why">对比三对伴侣的朋友圈重叠程度，讨论“完全不重叠”和“全部重叠”各自带来的具体问题与解决办法。</p>
+              <div class="film-foot"><span>更新 11-14 · 27 分钟</span><span class="hot">热度 6,240</span></div>
+            </div>
+          </article>
+        </div>
+        <div class="no-result" id="noResult">没有找到匹配的条目，试试「异地」「婚前」「边界」「家务」等具体词。</div>
+      </section>
+
+      <!-- 3 最新更新 -->
+      <section class="section" id="latest" aria-labelledby="t-latest">
+        <div class="sec-head">
+          <div class="sec-kicker">UPDATES</div>
+          <h2 class="sec-title" id="t-latest">最新更新与直播预告 <span class="tag">10 条</span></h2>
+          <p class="sec-desc">按发布时间排列，含新档案、连载更新、规则修订与直播安排。</p>
+        </div>
+        <ul class="update-list">
+          <li><span class="time">今天 09:10</span><span class="name">异地三年后的重启对话<small>下集上线，含第二次谈话完整录音转录</small></span><span class="badge b-new">新上线</span></li>
+          <li><span class="time">今天 08:20</span><span class="name">相处规则库<small>新增「临时改计划如何提」条目，附三条示例句</small></span><span class="badge b-rule">规则修订</span></li>
+          <li><span class="time">昨天 21:10</span><span class="name">边界沟通的六句话<small>播放量破 8 万，评论区补充了第七句「先确认再回应」</small></span><span class="badge b-doc">纪录片</span></li>
+          <li><span class="time">昨天 18:40</span><span class="name">今晚 21:00 直播<small>主题：同居后家务怎么重新分工，连线两位当事人</small></span><span class="badge b-live">直播</span></li>
+          <li><span class="time">11 月 23 日</span><span class="name">婚前财务清单怎么谈<small>更新字幕版本，补充双方父母出资一项的讨论</small></span><span class="badge b-doc">纪录片</span></li>
+          <li><span class="time">11 月 22 日</span><span class="name">中年再出发专题<small>新增 3 条档案，涉及二次分居与再婚前的子女沟通</small></span><span class="badge b-new">新上线</span></li>
+          <li><span class="time">11 月 20 日</span><span class="name">复合还是告别：三次尝试<small>评论区整理出「复合前该问的五个问题」清单</small></span><span class="badge b-doc">纪录片</span></li>
+          <li><span class="time">11 月 18 日</span><span class="name">高分榜单<small>更新至 2026 年 11 月版，前十名有四条为新入榜</small></span><span class="badge b-rule">榜单更新</span></li>
+          <li><span class="time">11 月 16 日</span><span class="name">共同生活开支三种分摊方式<small>上线对照表下载版，可直接填写月收入与固定支出</small></span><span class="badge b-new">新上线</span></li>
+          <li><span class="time">11 月 14 日</span><span class="name">社交圈重叠多少算合适<small>新增两位读者投稿的补充观察</small></span><span class="badge b-doc">纪录片</span></li>
+        </ul>
+      </section>
+
+      <!-- 4 分类入口 -->
+      <section class="section" id="categories" aria-labelledby="t-categories">
+        <div class="sec-head">
+          <div class="sec-kicker">CATEGORIES</div>
+          <h2 class="sec-title" id="t-categories">按类型进入 <span class="tag">8 类</span></h2>
+          <p class="sec-desc">每一类对应一种具体处境，点进去按热度或时间排序。</p>
+        </div>
+        <div class="cat-grid">
+          <a class="cat-item" href="/#featured"><b>异地关系</b><span>分居两地、见面频率、迁就与收尾</span></a>
+          <a class="cat-item" href="/#featured"><b>同居相处</b><span>家务、作息、私人物品与共同空间</span></a>
+          <a class="cat-item" href="/#featured"><b>婚前后</b><span>财务、婚礼、双方家庭与承诺兑现</span></a>
+          <a class="cat-item" href="/#featured"><b>复合与告别</b><span>信任修复、条件谈判、体面退场</span></a>
+          <a class="cat-item" href="/#featured"><b>家庭与双方父母</b><span>节日安排、借钱、照护与意见冲突</span></a>
+          <a class="cat-item" href="/#featured"><b>边界与沟通</b><span>拒绝、报备、情绪施压与打断</span></a>
+          <a class="cat-item" href="/#featured"><b>金钱与共同生活</b><span>分摊比例、公账私账与收入差</span></a>
+          <a class="cat-item" href="/#featured"><b>自我成长</b><span>关系结束后的复原、独立与再出发</span></a>
+        </div>
+      </section>
+
+      <!-- 5 深度解析 -->
+      <section class="section deep" id="deep" aria-labelledby="t-deep">
+        <div class="sec-head">
+          <div class="sec-kicker">IN DEPTH</div>
+          <h2 class="sec-title" id="t-deep">三类处境的差别：异地、同居、婚前后</h2>
+          <p class="sec-desc">同一个问题放在不同处境里，答案会变。下面拆开讲判断维度。</p>
+        </div>
+
+        <h3>一、异地关系：核心变量是「下一次见面」</h3>
+        <p>异地关系里，大多数争执表面上是“你不回消息”，实际指向的是下一次见面什么时候、由谁安排、费用谁承担。成年人男女的异地档案里，反复出现的三个具体节点是：见面频率是否写进日程、谁负责订票、节假日如何分配。这三项一旦含糊，情绪就会替代流程。</p>
+        <p>判断一段异地是否值得继续投入，可以看三个可观察的指标，而不是靠感觉：</p>
+        <ul>
+          <li><b>日程可预期性</b>：未来两个月的见面日期是否已经落到日历，而不是“到时候看”。</li>
+          <li><b>迁就对等度</b>：过去四次见面里，主动移动的一方是否超过三次。长期单向移动会积累隐性账本。</li>
+          <li><b>终点是否被讨论</b>：有没有一个具体的时间点或事件（换工作、毕业、租约到期）被当作结束异地的锚。</li>
+        </ul>
+        <p>如果三项里有两项长期缺失，档案中的当事人多数会在半年内进入“要不要收尾”的阶段。这不是结论，而是可对照的规律。</p>
+
+        <h3>二、同居相处：先谈规则，再谈感情</h3>
+        <p>同居的问题几乎都集中在可量化的事情上：谁洗碗、几点睡、周末是否必须一起出门、朋友能不能临时来住。成年人男女收录的同居档案里，处理得较好的伴侣有一个共同动作——在搬进去之前或第一周内，把四件事写成双方都认的版本。</p>
+        <div class="compare">
+          <div>
+            <h4>容易出问题的做法</h4>
+            <p>用“你看着办”“都行”把分工留成模糊地带，等不满累积到某个晚上一次性爆发，然后争论“你从来不做”。</p>
+          </div>
+          <div>
+            <h4>档案里更常见的有效做法</h4>
+            <p>把家务按频次分档（每日、每周、每月），各自认领，并约定每月固定一天复盘一次，允许换手。</p>
+          </div>
+        </div>
+        <p>另一个高频议题是私人空间。同居不等于全部共享：手机、抽屉、独处时间是否需要报备，需要提前明确。成年人男女的边界类条目建议用“先说明再行动”的方式处理，例如临时需要独处一晚，提前说清原因与时长，而不是消失。</p>
+
+        <h3>三、婚前后：把钱和家务写成清单</h3>
+        <p>婚前后阶段，冲突点从“要不要”变成“怎么分”。档案里最常被低估的两项是：双方父母出资的性质（赠与还是借款）、婚后日常开支的分摊方式。这两项如果不写清楚，会在两三年后以完全不同的形式重新出现。</p>
+        <p>可操作的顺序是：先各自独立写下答案，再逐项对照差异，最后只对差异项谈判。这个顺序能避免一开始就陷入立场争论。成年人男女的婚前后清单通常包含六项：</p>
+        <ul>
+          <li><b>存款与负债</b>：各自金额、是否有消费贷、是否需要共同承担。</li>
+          <li><b>房产</b>：出资比例、署名方式、还贷责任。</li>
+          <li><b>婚礼预算</b>：总额、谁出、超出部分怎么处理。</li>
+          <li><b>双方父母出资</b>：金额、性质、是否附带条件。</li>
+          <li><b>日常分摊</b>：平摊、按收入比例，还是公账加私账。</li>
+          <li><b>应急与照护</b>：一方失业或生病时的过渡安排。</li>
+        </ul>
+        <p>值得注意的是，清单的价值不在于一次谈完，而在于把“还没谈”变成“已经写下来的待谈项”。成年人男女的多条档案显示，能明确列出未决项的伴侣，后续争执的强度明显更低。</p>
+      </section>
+
+      <!-- 6 体验指南 -->
+      <section class="section" id="guide" aria-labelledby="t-guide">
+        <div class="sec-head">
+          <div class="sec-kicker">GUIDE</div>
+          <h2 class="sec-title" id="t-guide">从哪一条开始看 <span class="tag">4 步</span></h2>
+          <p class="sec-desc">按你现在的处境选入口，而不是按热度从第一名往下刷。</p>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <span class="n">1</span>
+            <div><b>先定位处境，再选条目</b><p>正在异地，就从「异地三年后的重启对话」入手；已经同居，先看「同居第一年家务分配记录」。处境不对应的条目，结论很难直接用。</p></div>
+          </div>
+          <div class="step">
+            <span class="n">2</span>
+            <div><b>看条目里的具体动作，而不是评价</b><p>判断一条档案值不值得花时间，看它有没有记录谁在什么时候说了什么、做了什么决定。只有情绪描述、没有具体动作的条目，参考价值通常有限。</p></div>
+          </div>
+          <div class="step">
+            <span class="n">3</span>
+            <div><b>同类条目横向比三条</b><p>同一议题至少看三条，比较它们在相同节点上的不同处理方式。比如婚前财务，对比「婚前财务清单怎么谈」和「共同生活开支三种分摊方式」，差异会更清楚。</p></div>
+          </div>
+          <div class="step">
+            <span class="n">4</span>
+            <div><b>把可迁移的部分记下来</b><p>记下具体句子和顺序，而不是记结论。例如“先各自写答案，再对照差异”这类流程，比“要多沟通”更容易在真实对话里用上。</p></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7 FAQ -->
+      <section class="section faq" id="faq" aria-labelledby="t-faq">
+        <div class="sec-head">
+          <div class="sec-kicker">FAQ</div>
+          <h2 class="sec-title" id="t-faq">常见问答 <span class="tag">6 问</span></h2>
+          <p class="sec-desc">围绕具体类型与具体条目的高频疑问。</p>
+        </div>
+
+        <details>
+          <summary>异地关系类档案一般多久更新一次？</summary>
+          <div class="ans">异地方向的连载档案通常按上下集更新，间隔在 5 到 10 天之间。本周「异地三年后的重启对话」下集于 11 月 25 日上线，上集在 11 月 16 日发布。单集时长多在 25 到 50 分钟，含完整对话转录的版本会晚一天放出。</div>
+        </details>
+
+        <details>
+          <summary>同居相处和婚前后两类，重点差别在哪？</summary>
+          <div class="ans">同居相处的议题集中在日常可量化的事务：家务频次、作息、私人空间、朋友来访。婚前后则多了不可逆的项：财务合并、房产署名、双方父母出资性质、婚礼预算。简单说，同居更多是流程问题，婚前后更多是结构问题，需要写下来的东西也更多。</div>
+        </details>
+
+        <details>
+          <summary>第一次接触这个方向，从哪一条开始看比较好？</summary>
+          <div class="ans">如果你目前没有具体处境，建议先看「边界沟通的六句话」，24 分钟，六个具体场景，门槛最低。如果已经在某段关系里遇到卡点，直接按处境选：异地看「异地三年后的重启对话」，同居看「同居第一年家务分配记录」，准备结婚看「婚前财务清单怎么谈」。</div>
+        </details>
+
+        <details>
+          <summary>复合类内容通常怎么判断值不值得尝试？</summary>
+          <div class="ans">档案里常见的判断依据不是“还有没有感情”，而是三个可核对的条件：导致分开的具体问题是否已经变化、双方是否愿意就那件事重新定规则、是否设定了尝试的期限。「复合还是告别：三次尝试」把这三条落到了三次见面的具体对话里，可以直接对照。</div>
+        </details>
+
+        <details>
+          <summary>共同生活开支的分摊方式，有没有通用标准？</summary>
+          <div class="ans">没有通用标准，但有可比较的三种：平摊、按收入比例、公账加私账。收入差在一倍以内时，平摊与按比例的实际感受差异不大；收入差超过两倍时，平摊容易让收入低的一方长期紧张。「共同生活开支三种分摊方式」用两组收入差做了对照，可以直接看结果。</div>
+        </details>
+
+        <details>
+          <summary>中年再出发类档案和年轻阶段的关系内容有什么不同？</summary>
+          <div class="ans">差别主要在牵连项。中年阶段的关系往往涉及子女沟通、前段关系的收尾、财产与照护责任，决策周期更长。以「四十五岁再婚前的子女沟通」为例，重点不在两人是否合适，而在如何分三次告诉孩子、如何回应孩子提出的具体问题，这类内容在年轻阶段的关系档案里很少出现。</div>
+        </details>
+      </section>
+
+      <!-- 8 评论 -->
+      <section class="section" id="comments" aria-labelledby="t-comments">
+        <div class="sec-head">
+          <div class="sec-kicker">COMMENTS</div>
+          <h2 class="sec-title" id="t-comments">读者评论 <span class="tag">14 条</span></h2>
+          <p class="sec-desc">来自具体条目的评论区，含不同意见与中性评价。</p>
+        </div>
+        <ul class="cmt-list">
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b8556f">林</span><b>林间小路</b><span class="when">11-25 10:22</span></div><p>「异地三年后的重启对话」里那个把见面日期直接写进日历的做法，我照着做了两个月，争执确实少了。</p><div class="like">有用 128</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#2f6f6a">周</span><b>周末不加班</b><span class="when">11-25 09:47</span></div><p>家务那张三十天记录表我打印了，填到第二周就发现我自以为做得多的部分其实不多。有点扎心但有用。</p><div class="like">有用 96</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b08442">阿</span><b>阿岚的备忘录</b><span class="when">11-24 22:15</span></div><p>婚前财务清单六项挺全，但我觉得还应该加一项「婚后是否需要共同账户」，这一条我们当时漏了，后面又补谈了一次。</p><div class="like">有用 87</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8a3b52">沉</span><b>沉默的周一</b><span class="when">11-24 20:03</span></div><p>复合那期看完反而更犹豫了。三次尝试里第二次其实已经把事情说清，但两人都没往前走，这种状态拍得挺真实。</p><div class="like">有用 74</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#2f6f6a">南</span><b>南方来信</b><span class="when">11-24 16:38</span></div><p>边界六句话里「先确认再回应」这条我用了，效果一般。对方会觉得你在拖时间，可能还是得分场景。</p><div class="like">有用 61</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b8556f">苏</span><b>苏打水半杯</b><span class="when">11-23 21:50</span></div><p>双方父母那期讲「各自负责自己家」，我们家执行了半年，节日安排确实不再吵，但前提是两边父母都认这个规则。</p><div class="like">有用 79</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b08442">老</span><b>老陈杂货铺</b><span class="when">11-23 15:12</span></div><p>中年再出发那期节奏有点慢，前二十分钟都在铺垫。不过孩子提的三个问题那一段值得单独剪出来。</p><div class="like">有用 45</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8a3b52">小</span><b>小满不满</b><span class="when">11-22 23:29</span></div><p>收入差两倍那个对照很有用。我们一直平摊，看完才意识到对方压力可能比我大，这周准备重新谈一次。</p><div class="like">有用 92</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#2f6f6a">一</span><b>一只咸鱼</b><span class="when">11-22 19:06</span></div><p>社交圈重叠那期结论有点保守，说完全不重叠也有问题。我身边完全不重叠的反而挺稳定，可能样本太小。</p><div class="like">有用 38</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b8556f">禾</span><b>禾木木</b><span class="when">11-21 22:41</span></div><p>「同居第一年」里那句「先说明再行动」我抄下来了。之前总觉得提前讲清楚显得生分，现在觉得反而是尊重。</p><div class="like">有用 84</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b08442">蓝</span><b>蓝色星期五</b><span class="when">11-21 14:17</span></div><p>希望能多做一些收入差距很大但不吵架的档案，现在大部分都是矛盾视角，顺利的样本反而少。</p><div class="like">有用 57</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#8a3b52">路</span><b>路过的猫</b><span class="when">11-20 20:55</span></div><p>婚前财务那期两人各自写答案再对照的方式，我们试了，结果差异最大的是应急与照护那一项，之前完全没想过。</p><div class="like">有用 70</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#2f6f6a">知</span><b>知道不知道</b><span class="when">11-20 11:33</span></div><p>整体偏长，有些档案四十分钟里三十分钟在铺垫。建议做个十分钟剪辑版，先看结论再决定要不要看全片。</p><div class="like">有用 42</div></li>
+          <li class="cmt"><div class="cmt-top"><span class="avatar" style="background:#b8556f">晴</span><b>晴天带伞</b><span class="when">11-19 18:24</span></div><p>边界那期最有用的是它没有劝人分手，也没有劝人忍。只给具体句子，让你自己选说哪一句，这点很难得。</p><div class="like">有用 66</div></li>
+        </ul>
+      </section>
+
+      <!-- 9 相关资讯 -->
+      <section class="section" id="news" aria-labelledby="t-news">
+        <div class="sec-head">
+          <div class="sec-kicker">NEWS</div>
+          <h2 class="sec-title" id="t-news">相关资讯 <span class="tag">6 条</span></h2>
+          <p class="sec-desc">新条目上线、类型趋势与社区讨论焦点。</p>
+        </div>
+        <ul class="news-list">
+          <li>
+            <img src="https://picsum.photos/seed/zixun-yidi-zhengdun03/600/400" width="600" height="400" loading="lazy" alt="异地关系专题档案上线的资讯配图">
+            <div><h3><span class="date">11-25</span>异地关系专题新增 4 条档案，聚焦「什么时候该结束异地」</h3><p>专题把结束异地的常见锚点归为三类：工作变动、租约到期、家庭照护需求，并给出每种锚点下的对话顺序建议。</p></div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/seed/zixun-hunqian-qingdan11/600/400" width="600" height="400" loading="lazy" alt="婚前财务清单条目更新的资讯配图">
+            <div><h3><span class="date">11-23</span>婚前财务清单条目修订，新增「双方父母出资性质」说明</h3><p>修订版明确区分赠与与借款两种性质，并附上两种情形下后续可能出现的分歧点，供对照使用。</p></div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/seed/zixun-zhongnian-zhuanti07/600/400" width="600" height="400" loading="lazy" alt="中年再出发专题扩充的资讯配图">
+            <div><h3><span class="date">11-22</span>中年再出发专题扩充，二次分居与再婚前沟通成讨论焦点</h3><p>新增三条档案里，两条涉及二次分居的过渡安排，一条记录再婚前如何与子女分阶段沟通。</p></div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/seed/zixun-bianjie-huashu19/600/400" width="600" height="400" loading="lazy" alt="边界沟通话术条目社区讨论的资讯配图">
+            <div><h3><span class="date">11-20</span>「边界沟通的六句话」引发社区补充，第七句被提出</h3><p>评论区集中讨论「先确认再回应」是否显得拖延，多数意见认为应配合明确的时间点使用。</p></div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/seed/zixun-jiawu-fentan26/600/400" width="600" height="400" loading="lazy" alt="家务分工复盘模板上线的资讯配图">
+            <div><h3><span class="date">11-18</span>家务分工复盘模板上线，含每日、每周、每月三档分类</h3><p>模板把家务按频次分档，支持两人各自认领并约定每月固定复盘日，可直接填写后对照。</p></div>
+          </li>
+          <li>
+            <img src="https://picsum.photos/seed/zixun-bangdan-202611/600/400" width="600" height="400" loading="lazy" alt="十一月高分榜单更新的资讯配图">
+            <div><h3><span class="date">11-18</span>2026 年 11 月高分榜单更新，前十名四条为新入榜</h3><p>新入榜条目集中在边界与沟通、金钱与共同生活两个方向，评分依据含完整度、具体动作密度与可复用性。</p></div>
+          </li>
+        </ul>
+      </section>
+
+      <!-- 10 相关推荐 -->
+      <section class="section" id="related" aria-labelledby="t-related">
+        <div class="sec-head">
+          <div class="sec-kicker">RELATED</div>
+          <h2 class="sec-title" id="t-related">延伸方向与可查条目</h2>
+          <p class="sec-desc">不是当下热门，而是顺着议题往下走的入口。</p>
+        </div>
+        <div class="rel-cols">
+          <div>
+            <h4>延伸议题</h4>
+            <div class="rel-tags">
+              <a href="/#featured">结束异地的三个锚点</a>
+              <a href="/#featured">报备与隐私的界线</a>
+              <a href="/#featured">收入差与话语权</a>
+              <a href="/#featured">节日安排轮换制</a>
+              <a href="/#featured">关系结束后的复原节奏</a>
+              <a href="/#featured">再婚前的财产沟通</a>
+            </div>
+          </div>
+          <div>
+            <h4>可直接查阅的条目</h4>
+            <div class="rel-tags">
+              <a href="/#featured">临时改计划如何提</a>
+              <a href="/#featured">被翻手机时怎么回应</a>
+              <a href="/#featured">共同账户的三种开法</a>
+              <a href="/#featured">双方父母借钱怎么定性质</a>
+              <a href="/#featured">独处一晚的提前说明</a>
+              <a href="/#featured">复合前该问的五个问题</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11 榜单 + 时间线 -->
+      <section class="section" id="rank" aria-labelledby="t-rank">
+        <div class="sec-head">
+          <div class="sec-kicker">RANKING</div>
+          <h2 class="sec-title" id="t-rank">2026 年 11 月高分榜单 <span class="tag">Top 10</span></h2>
+          <p class="sec-desc">按完整度、具体动作密度与可复用性三项综合排序。</p>
+        </div>
+        <ol class="rank-list">
+          <li><span class="idx">1</span><span><b>异地三年后的重启对话</b><small>异地关系 · 完整对话转录</small></span><span class="score">9.4</span></li>
+          <li><span class="idx">2</span><span><b>边界沟通的六句话</b><small>边界与沟通 · 六个具体场景</small></span><span class="score">9.3</span></li>
+          <li><span class="idx">3</span><span><b>婚前财务清单怎么谈</b><small>婚前后 · 六项逐条对照</small></span><span class="score">9.2</span></li>
+          <li><span class="idx">4</span><span><b>同居第一年家务分配记录</b><small>同居相处 · 三十天记录表</small></span><span class="score">9.0</span></li>
+          <li><span class="idx">5</span><span><b>复合还是告别：三次尝试</b><small>复合与告别 · 条件谈判</small></span><span class="score">8.9</span></li>
+          <li><span class="idx">6</span><span><b>共同生活开支三种分摊方式</b><small>金钱与共同生活 · 两组收入差对照</small></span><span class="score">8.8</span></li>
+          <li><span class="idx">7</span><span><b>双方父母介入时谁来说</b><small>家庭与双方父母 · 分工演示</small></span><span class="score">8.7</span></li>
+          <li><span class="idx">8</span><span><b>四十五岁再婚前的子女沟通</b><small>中年再出发 · 分三次沟通</small></span><span class="score">8.5</span></li>
+          <li><span class="idx">9</span><span><b>社交圈重叠多少算合适</b><small>朋友圈与社交 · 三对伴侣对比</small></span><span class="score">8.3</span></li>
+          <li><span class="idx">10</span><span><b>独处一晚的提前说明</b><small>边界与沟通 · 短条目</small></span><span class="score">8.1</span></li>
+        </ol>
+      </section>
+
+      <section class="section" id="timeline" aria-labelledby="t-timeline">
+        <div class="sec-head">
+          <div class="sec-kicker">TIMELINE</div>
+          <h2 class="sec-title" id="t-timeline">近一个月档案上线时间线</h2>
+        </div>
+        <ul class="timeline">
+          <li><span class="tl-date">2026-11-25</span><b>异地三年后的重启对话（下集）</b><p>含第二次谈话完整录音转录，时长 42 分钟。</p></li>
+          <li><span class="tl-date">2026-11-23</span><b>婚前财务清单怎么谈（字幕修订版）</b><p>补充双方父母出资一项的讨论与分歧点。</p></li>
+          <li><span class="tl-date">2026-11-22</span><b>中年再出发专题新增 3 条</b><p>涉及二次分居过渡与再婚前子女沟通。</p></li>
+          <li><span class="tl-date">2026-11-19</span><b>双方父母介入时谁来说</b><p>四个具体场景的分工演示。</p></li>
+          <li><span class="tl-date">2026-11-16</span><b>共同生活开支三种分摊方式</b><p>上线对照表下载版，含两组收入差样本。</p></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- 右辅助栏 -->
+    <aside class="right-col" aria-label="辅助信息">
+      <div class="side-card">
+        <div class="side-title">热榜 · 今日</div>
+        <ul class="hot-list">
+          <li><span class="num">1</span><a href="/#featured">异地三年后的重启对话</a><span class="meta">9.4</span></li>
+          <li><span class="num">2</span><a href="/#featured">边界沟通的六句话</a><span class="meta">9.3</span></li>
+          <li><span class="num">3</span><a href="/#featured">婚前财务清单怎么谈</a><span class="meta">9.2</span></li>
+          <li><span class="num">4</span><a href="/#featured">同居第一年家务分配记录</a><span class="meta">9.0</span></li>
+          <li><span class="num">5</span><a href="/#featured">复合还是告别：三次尝试</a><span class="meta">8.9</span></li>
+          <li><span class="num">6</span><a href="/#featured">共同生活开支三种分摊方式</a><span class="meta">8.8</span></li>
+        </ul>
+      </div>
+
+      <div class="side-card">
+        <div class="side-title">今晚直播</div>
+        <div class="quote-card">
+          <p><strong style="color:var(--brand)">成年人男女 · 相处边界答疑</strong><br>21:00 开始，连线两位同居档案当事人，讨论「临时改计划」和「独处报备」两个高频场景。</p>
+          <cite>2026-11-25 21:00 · 预计 70 分钟</cite>
+        </div>
+      </div>
+
+      <div class="side-card">
+        <div class="side-title">热门标签</div>
+        <div class="mini-tags">
+          <a href="/#featured">异地</a>
+          <a href="/#featured">家务分工</a>
+          <a href="/#featured">婚前清单</a>
+          <a href="/#featured">边界</a>
+          <a href="/#featured">复合</a>
+          <a href="/#featured">双方父母</a>
+          <a href="/#featured">分摊比例</a>
+          <a href="/#featured">中年再出发</a>
+        </div>
+      </div>
+
+      <div class="side-card">
+        <div class="side-title">规则库更新</div>
+        <ul class="hot-list">
+          <li><a href="/#latest">临时改计划如何提</a><span class="meta">11-25</span></li>
+          <li><a href="/#latest">独处一晚的提前说明</a><span class="meta">11-21</span></li>
+          <li><a href="/#latest">被追问前任时怎么答</a><span class="meta">11-17</span></li>
+          <li><a href="/#latest">共同账户的三种开法</a><span class="meta">11-12</span></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="foot-inner">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="brand">
+          <svg class="brand-mark" viewBox="0 0 48 48" role="img" aria-label="成年人男女图形标志">
+            <rect x="1" y="1" width="46" height="46" rx="13" fill="#8a3b52"/>
+            <circle cx="18.5" cy="19" r="5.2" fill="none" stroke="#fbe9ee" stroke-width="2.2"/>
+            <circle cx="30.5" cy="22" r="4.2" fill="none" stroke="#f7d6df" stroke-width="2.2"/>
+            <path d="M10 36c1.6-5.6 5-8.4 8.5-8.4S25.4 30.4 27 36" fill="none" stroke="#fbe9ee" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M28.5 35.4c1-4 3.5-6.2 6.1-6.2 2.2 0 4.2 1.6 5.3 4.6" fill="none" stroke="#f7d6df" stroke-width="2.2" stroke-linecap="round"/>
+          </svg>
+          <span class="brand-text">
+            <span class="brand-name">成年人男女</span>
+            <span class="brand-sub">RELATIONSHIP STUDIO</span>
+          </span>
+        </div>
+        <p class="foot-desc">记录成年人关系里的具体处境：异地、同居、婚前后、复合与告别。用档案和规则代替结论，帮你看清每一件事该怎么谈。</p>
+      </div>
+      <div class="foot-cols">
+        <div>
+          <h4>内容方向</h4>
+          <a href="/#featured">异地关系</a>
+          <a href="/#featured">同居相处</a>
+          <a href="/#featured">婚前后</a>
+          <a href="/#featured">复合与告别</a>
+          <a href="/#featured">家庭与双方父母</a>
+        </div>
+        <div>
+          <h4>栏目入口</h4>
+          <a href="/#overview">关系观察</a>
+          <a href="/#latest">更新动态</a>
+          <a href="/#deep">深度解析</a>
+          <a href="/#guide">体验指南</a>
+          <a href="/#rank">高分榜单</a>
+        </div>
+        <div>
+          <h4>参与与说明</h4>
+          <a href="/#comments">读者评论</a>
+          <a href="/#faq">常见问答</a>
+          <a href="/#news">相关资讯</a>
+          <a href="/#related">延伸议题</a>
+          <a href="/#timeline">上线时间线</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>站内条目、评分、热度与评论均为内容示例，用于呈现栏目结构；档案中人物均使用化名，已做必要模糊处理。内容仅供参考，不构成任何专业建议。</p>
+      <p>© 2026 成年人男女 · 关系观察与记录</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var input = document.getElementById('siteSearch');
+  var btn = document.getElementById('searchBtn');
+  var note = document.getElementById('searchNote');
+  var noResult = document.getElementById('noResult');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('[data-searchable] .film-card'));
+
+  function runSearch(){
+    var q = (input.value || '').trim().toLowerCase();
+    if(!q){
+      note.classList.remove('on');
+      note.textContent = '';
+      noResult.classList.remove('on');
+      cards.forEach(function(c){ c.style.display = ''; });
+      return;
+    }
+    var hit = 0;
+    cards.forEach(function(c){
+      var keys = (c.getAttribute('data-keys') || '').toLowerCase();
+      var text = c.textContent.toLowerCase();
+      var match = keys.indexOf(q) > -1 || text.indexOf(q) > -1;
+      c.style.display = match ? '' : 'none';
+      if(match) hit++;
+    });
+    note.classList.add('on');
+    note.textContent = '“' + input.value.trim() + '” 在精选档案中匹配到 ' + hit + ' 条' + (hit ? '，其余板块仍可继续浏览。' : '。');
+    noResult.classList.toggle('on', hit === 0);
+  }
+
+  btn.addEventListener('click', runSearch);
+  input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){ e.preventDefault(); runSearch(); }
+  });
+  input.addEventListener('input', function(){
+    if(!input.value.trim()) runSearch();
+  });
+})();
+</script>
+</body>
+  </html>
